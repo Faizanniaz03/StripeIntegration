@@ -2,8 +2,8 @@ import express from "express";
 
 const app = express();
 const port = 3000; //add your port here
-const PUBLISHABLE_KEY = "pk_test_51PEnDn2MBG739KhfEycyY780EHLLNu4BJBtRvWbeVDWFxUsVduGIIbBvKlTN1ixBAHZ7zZPdkoKU4qers13n5mE200piTFqCie";
-const SECRET_KEY = "sk_test_51PEnDn2MBG739KhfQHxbsmVfWdAGIIK74kuTNi5TaNKfVD2YR9nUdv2iT1AO8casXsBzNAetjejkTEqU4I0bzpjA00dcw0kwTF";
+const PUBLISHABLE_KEY = "Publish key here";
+const SECRET_KEY = "pRivate key here";
 import Stripe from "stripe";
 
 //Confirm the API version from your stripe dashboard

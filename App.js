@@ -13,7 +13,7 @@ const Stack = createNativeStackNavigator()
 
 const App = () => {
   return (
-    <StripeProvider publishableKey='pk_test_51PEnDn2MBG739KhfEycyY780EHLLNu4BJBtRvWbeVDWFxUsVduGIIbBvKlTN1ixBAHZ7zZPdkoKU4qers13n5mE200piTFqCie'>
+    <StripeProvider publishableKey='YOur Key Here'>
      <NavigationContainer>
       <Stack.Navigator initialRouteName='StripeApp'>
         <Stack.Screen name='StripeApp' component={StripeApp} />
